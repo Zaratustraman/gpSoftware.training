@@ -1,0 +1,2 @@
+# gpSoftware.training
+AngularJS tasks
