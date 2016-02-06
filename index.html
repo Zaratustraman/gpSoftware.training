@@ -1,11 +1,12 @@
-<html ng-app>
+<html>
    <head>
    </head>
-   <body>
+   <body ng-app="app">
    <p><b>Amount</b></p>
    <input type="number" ng-model="firstNumber" name="firstNumber"> First number<Br>
    <input type="number" ng-model="secondNumber" name="secondNumber" > Second number<Br>
-   <p>Sum: {{firstNumber+secondNumber}}</p>
+   <my-sum></my-sum>
    </body>
    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+   <script src="app.js"></script>
 </html>
